@@ -1,0 +1,12 @@
+/* UPI TimePay basic styles */
+.upi-timepay{ border:1px solid #e2e2e2; padding:16px; border-radius:8px; }
+.upi-timepay-grid{ display:grid; grid-template-columns: 1fr 1fr; gap:16px; align-items:start; }
+.upi-timepay-qr{ width:220px; height:220px; margin-bottom:8px; }
+.upi-timepay-btn{ display:inline-block; background:#1e7e34; color:#fff; padding:10px 14px; border-radius:6px; text-decoration:none; }
+.upi-timepay-btn.disabled{ background:#999; pointer-events:none; }
+.upi-timepay-countdown{ margin-top:8px; font-weight:600; }
+.upi-timepay-right input[type="file"]{ display:block; margin:8px 0; }
+.upi-timepay-right input[type="text"]{ width:100%; max-width:320px; }
+.upi-timepay-submit{ margin-top:8px; }
+.upi-timepay-msg{ margin-top:8px; font-weight:600; }
+@media (max-width: 640px){ .upi-timepay-grid{ grid-template-columns: 1fr; } .upi-timepay-qr{ margin:auto; } }
